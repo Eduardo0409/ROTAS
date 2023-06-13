@@ -15,7 +15,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule, 
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'about', component: AboutComponent}
+      {path: 'about', component: AboutComponent},
+      {path: 'mult-table', component: MultTableComponent},
     ]),
   ],
   declarations: [

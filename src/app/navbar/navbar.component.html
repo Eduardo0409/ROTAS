@@ -7,10 +7,33 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" [routerLink] = "'/'" aria-current="page">Home</a>
+          <a 
+            class="nav-link" 
+            [routerLink] = "'/'" 
+            [routerLinkActive] = "'active'"
+            aria-current="page"
+            >Home</a
+          >
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" [routerLink] = "'/about'" aria-current="page">About</a>
+          <a 
+            class="nav-link" 
+            [routerLink] = "'/about'" 
+            [routerLinkActive] = "'active'"
+            aria-current="page"
+            >About</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a 
+            class="nav-link" 
+            [routerLink] = "'/mult-table'" 
+            [routerLinkActive] = "'active'"
+            aria-current="page"
+            >Mult-Table</a
+          >
         </li>
       </ul>
     </div>
