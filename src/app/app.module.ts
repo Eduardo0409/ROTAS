@@ -17,6 +17,7 @@ import { RouterModule } from '@angular/router';
       {path: '', component: HomeComponent},
       {path: 'about', component: AboutComponent},
       {path: 'mult-table', component: MultTableComponent},
+      {path: 'mult-table/:n', component: MultTableDetalsComponent},
     ]),
   ],
   declarations: [
